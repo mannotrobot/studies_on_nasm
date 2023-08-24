@@ -6,6 +6,8 @@ section .text
 _start: mov     eax, 0
 again:  PRINT   "Hello"
         PUTCHAR 10
+        PUTCHAR 35
+        PUTCHAR 10
         inc     eax
         cmp     eax, 5
         jl      again

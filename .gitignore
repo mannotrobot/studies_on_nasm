@@ -1,3 +1,4 @@
 stud_io.inc
-.o
+*.o
+*.lst
 target/
